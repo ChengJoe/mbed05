@@ -61,13 +61,13 @@ int main()
 
 // Demo
 
-int main()
-{
-      lcd.printf("108060010\n");
-      for (int x =30 ; x >= 0; x--)
-      { // display numbers 0-9
-            lcd.locate(10,0);
-            lcd.printf("%2d", x);
-            ThisThread::sleep_for(1s);
-      }
-}
+// int main()
+// {
+//       lcd.printf("108060010\n");
+//       for (int x =30 ; x >= 0; x--)
+//       { // display numbers 0-9
+//             lcd.locate(10,0);
+//             lcd.printf("%2d", x);
+//             ThisThread::sleep_for(1s);
+//       }
+// }
